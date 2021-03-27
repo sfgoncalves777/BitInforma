@@ -1,0 +1,178 @@
+#page-landing {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#page-landing > header {
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF;
+  padding: 5px 10px;
+  border-bottom: 1px solid #838181;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.5) ;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-landing > header img {
+  height: 40px;
+}
+
+#page-landing > header form {
+  display: flex;
+  align-items: center;
+}
+
+#page-landing > header input {
+  height: 40px;
+  width: 250px;
+  padding: 5px 10px;
+  font-family: Poppins;
+  background: #DADED5;
+  color: #646661;
+  border: 0;
+  border-radius: 8px 0px 0px 8px;
+}
+
+#page-landing > header button {
+  width: 50px;
+  height: 40px;
+  border: 0;
+  border-radius: 0px 8px 8px 0px;
+}
+
+#page-landing > header button img {
+  width: 20px;
+}
+
+#page-landing section {
+  padding: 0 40px;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#page-landing .cripto {
+  width: 100%;
+  padding: 25px;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #767272;
+}
+
+#page-landing .cripto header {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+#page-landing .cripto header div {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+#page-landing .cripto header div h1 {
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+#page-landing .cripto header strong {
+  font: 600 30px Poppins;
+}
+
+#page-landing .cripto main p {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #858383;
+}
+
+#page-landing .cripto main button {
+  float: right;
+  background: none;
+  border: 0;
+  font-size: 18px;
+  color: #2777C0;
+  margin-top: 15px;
+
+  display: flex;
+  align-items: center;
+}
+
+#page-landing .detail {
+  margin-top: 20px;
+  width: 100%;
+  padding: 25px;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #767272;
+}
+
+#page-landing .detail header {
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-landing .detail header div {
+  display: flex;
+  align-items: center;
+}
+
+#page-landing .detail header div h1 {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#page-landing .detail header p {
+  font-weight: 700;
+}
+
+#page-landing .detail main div {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#page-landing .detail main div p {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#page-landing .detail main div p strong {
+  margin-left: 15px;
+  color: #E4A22B;
+  text-decoration: underline;
+}
+
+@media(min-width: 700px) {
+  #page-landing > header {
+    height: 100px;
+    padding: 5px 30px;
+  }
+  
+  #page-landing > header img {
+    height: auto;
+  }
+
+  #page-landing section {
+    flex-direction: row;
+  }
+
+  #page-landing .cripto {
+    width: 500px;
+  }
+
+  #page-landing .detail {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+}
