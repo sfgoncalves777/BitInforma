@@ -21,7 +21,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://pt-br.reactjs.org/)
-- [Expo](https://expo.io/)
 - [Axios](https://github.com/axios/axios)
 - [React Router Dom](https://reactrouter.com/web/guides/quick-start)
 
